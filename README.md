@@ -1,2 +1,2 @@
 #training tabpanelen
-met jquerry
+met jQuery
