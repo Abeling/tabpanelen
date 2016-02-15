@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+.knoppen {
+    overflow: hidden;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    background-color: lightgrey;
+}
+
+.knoppen li {
+    list-style-type: none;
+    float: left;
+}
+
+.knoppen li.actief {
+    background-color: darkgrey;
+}
+
+.knoppen li:hover {
+    background-color: darkgrey;
+}
+
+.paneel {
+    /*display: none;*/
+}
+
+.paneel.actief {
+    display: block !important;
+}
+
+.paneel img {
+    max-width: 100%;
+}
+
+.nieuws {
+    background-color: white;
+    width: 640px;
+    margin: 0 auto;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 20px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
